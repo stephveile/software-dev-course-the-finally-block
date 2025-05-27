@@ -50,7 +50,7 @@ function processFile(fileName, fileData) {
     }
 
     if (typeof fileData !== "string") {
-      throw new TypeError ("File data nust be a string.");
+      throw new TypeError ("File data must be a string.");
     }
 
     if (fileData === "") {
